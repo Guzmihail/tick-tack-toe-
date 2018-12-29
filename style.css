@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+body {
+    background: #545559;
+}
+h1 {
+    border-bottom: 5px solid blue;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+span {
+    height: 45px;
+    width: 45px;
+    font-size: 45px;
+    font-weight: bold;
+    color: #00ffac;
+    text-transform: uppercase;
+}
+.content {
+    display: flex;
+    justify-content: center;
+}
+#game {
+    width: 450px;
+    height: 450px;
+    background-color: chocolate;
+    justify-content: center;
+}
+
+.block {
+    height: 150px;
+    width: 150px;
+    border: 1px solid wheat;
+    float: left;
+    box-sizing: border-box;
+    line-height: 150px;
+    text-align: center;
+    font-size: 130px;
+    text-transform: uppercase;
+}
